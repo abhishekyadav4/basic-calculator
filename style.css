@@ -1,0 +1,41 @@
+.container{
+   margin:   auto;
+   margin-top: 50px;
+    width: 379px;
+    height: 474px;
+    border: 3px solid black;
+    background-color: black;
+    border-radius: 25px;
+    
+}
+.display{
+   
+    height: 90px;
+    width: 100%;
+}
+button{
+    width: 90px;
+    height: 90px;
+    border-radius: 25px;
+    font-size: 40px;
+}
+.arthmatics{
+    display: grid;
+    flex-direction: column;
+}
+input{
+    width: 379px;
+    height: 80px;
+    margin-top: 8px;
+    border-radius: 25px;
+    font-size: 50px;
+    text-align: center;
+}
+#equal{
+   background-color: blue;
+   color: white;
+}
+button:hover{
+    background-color: gray;
+    
+}
